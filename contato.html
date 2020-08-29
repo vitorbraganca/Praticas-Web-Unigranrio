@@ -27,6 +27,9 @@
     <link rel="stylesheet" type="text/css" href="./css/grid.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+
 
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,6 +67,38 @@
     </div>
 </header>
 
+<section class="container contact">
+
+    <h1>Entre em contato</h1>
+
+    <form action="enviar.php" class="contact-form">
+
+        <div class="form-firstName grid-8">
+            <label for="firstName" class="grid-8">Primeiro nome</label>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+
+        <div class="form-lastName grid-8">
+            <label for="lastName">Sobrenome</label>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+
+        <div class="form-inputs grid-16">
+            <label for="email">Seu melhor e-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label for="subject">Sobre o que voce quer conversar?</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Digite aqui sua mensagem</label>
+            <textarea type="text" id="message" rows="1" cols="50" name="message"></textarea>
+
+            <button type="submit" class="btn">Enviar agora</button>
+        </div>
+
+    </form>
+
+</section>
 
 <footer class="footer">
     <div class="container">
@@ -81,5 +116,8 @@
 
     </div>
 </footer>
+
+<!-- JAVASCRIPT -->
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>

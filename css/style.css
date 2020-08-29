@@ -286,3 +286,66 @@ img {
 .about .cta-btn:hover {
     padding: 3%;
 }
+
+/* PAGINA CONTATO */
+
+.contact {
+    margin-top: 20vh;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/*.contact-form .form-inputs {*/
+/*    margin-top: 5%;*/
+/*}*/
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 13%;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 1%;
+    margin: 2% 0;
+    border: none;
+    border-bottom: solid 3px #333333;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-bottom: solid 3px #20B952;
+
+}
+
+
+.contact-form label {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.contact-form input {
+}
+
+.contact-form .btn {
+    width: 100%;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #20B952;
+    color: white;
+}
