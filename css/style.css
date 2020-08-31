@@ -1,3 +1,4 @@
+
 /* GERAL */
 
 body {
@@ -185,7 +186,7 @@ img {
     font-weight: bold;
 }
 
-.footer p {
+.footer h2, .footer h3 {
     font-size: 1.15rem;
 }
 
@@ -244,6 +245,11 @@ img {
 .intro .cta {
     margin: 5% auto 0 32%;
 }
+
+.intro-img-resp {
+    display: none;
+}
+
 
 .intro-img {
     margin-top: 10vh;
@@ -421,4 +427,8 @@ img {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.active {
+    display: block;
 }

@@ -21,11 +21,14 @@
     <meta property="og:image" content=""/>
 
 
-    <!-- Stilos -->
+    <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu-mobile.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsivo.css">
+
 
 
     <!-- Fontes -->
@@ -45,12 +48,13 @@
 <header class="header">
     <div class="container">
         <nav class="header_menu">
-            <ul class="grid-14">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul class="grid-14" data-menu="list" id="menu">
                 <li><a href="./index.html">Home</a></li>
 
                 <li><a href="./manutencao.html">Serviços</a></li>
 
-                <li><a href="./sobre.html" class="nav-selected">Sobre</a></li>
+                <li><a href="./sobre.html"  class="nav-selected">Sobre</a></li>
 
                 <li><a href="./index.html" class="nav-selected nav-main">Eu.</a></li>
 
@@ -116,5 +120,8 @@
 
     </div>
 </footer>
+
+<!-- JAVASCRIPT -->
+<script type="module" src="./js/script.js"></script>
 
 </body>

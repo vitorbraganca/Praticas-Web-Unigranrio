@@ -1,262 +1,1 @@
-/* Estilo para tablets */
-
-@media only screen and (min-width: 788px) and (max-width: 979px) {
-    /* Header */
-    .header {
-        height: 120px;
-    }
-
-    .header .grid-14 {
-        width: 788px;
-
-    }
-
-    .header_menu {
-        text-align: center;
-    }
-
-    .header_redes {
-        margin-top: 20px;
-        width: 100%;
-
-    }
-
-    .header_redes img {
-        display: inline;
-        margin-right: 10px;
-    }
-
-    /* Introducao */
-    .introducao {
-        text-align: center;
-        padding-top: 50px;
-        background-color: #11A7F8;
-    }
-
-    .introducao h1 {
-        margin: 0 auto;
-    }
-
-    .introducao-lista {
-        margin: 0 auto;
-        margin-top: 45%;
-    }
-
-    /* Sobre */
-    .sobre {
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-
-    .sobre p {
-        margin-bottom: 20px;
-    }
-
-    .sobre-texto {
-        width: 458px;
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-
-    .sobre-lateral h4 {
-        margin-top: 60px;
-    }
-
-    /* Experiencias */
-    .experiencias {
-        padding-top: 20px;
-        padding-bottom: 0;
-    }
-
-    .experiencias-logo {
-        margin-top: 60px;
-    }
-
-    .experiencias-texto-peq {
-        margin-top: 40px;
-    }
-
-    .experiencias-texto-gd {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    /* Portfolio */
-    .portfolio {
-        padding-top: 20px;
-    }
-
-    .portfolio img {
-        width: 236px;
-    }
-
-    .portfolio-titulo {
-        height: 100px;
-        padding: 10px 0;
-    }
-
-    /* Contato */
-    .contato {
-        padding-top: 0;
-    }
-
-    .contato .subtitulo:after {
-        width: 80px;
-    }
-
-    }
-
-/* Estilo para smartphone */
-
-@media only screen and (max-width: 787px) {
-
-    /* Header */
-    .header {
-        position: relative;
-        padding-top: 20px;
-        height: 100%;
-    }
-
-    .header_menu {
-        text-align: center;
-    }
-
-    .header_menu ul li {
-        margin: 5px 0 0 5px;
-    }
-
-    .header_menu ul li a {
-        font-size: 14px;
-        border: 4px solid white;
-        width: 140px;
-        display: block;
-        float: left;
-    }
-
-    .header_menu ul li a:hover {
-        border-color: black;
-    }
-
-    .header_redes {
-        margin: 0 auto 10px;
-    }
-
-    .header_redes img {
-        margin-right: 10px;
-    }
-
-    /* Introducao */
-    .introducao {
-        margin-top: 0;
-        text-align: center;
-        padding-top: 40px;
-        background-color: #11A7F8;
-        background-image: url("../img/intro-bg-resp.jpg");
-    }
-
-    .introducao h1 {
-        width: 100%;
-        margin: 0 auto;
-        font-size: 40px;
-    }
-
-    .introducao-lista {
-        width: 100%;
-        margin: 365px auto 0;
-    }
-
-    /* Sobre */
-    .sobre {
-        margin-top: 0;
-        padding-top: 40px;
-    }
-
-    .sobre p {
-        text-align: justify;
-        margin-bottom: 20px;
-    }
-    
-    .sobre h3, h4 {
-        text-align: center;
-    }
-
-    .sobre .sobre-lateral {
-        margin: 0;
-    }
-
-    .sobre img {
-        width: 100%;
-    }
-
-    /* Experiencias */
-    .experiencias {
-        text-align: justify;
-    }
-
-    .experiencias h3 {
-        width: 100%;
-        text-align: left;
-    }
-
-    .experiencias-logo {
-        float: left;
-        width: 75px;
-        margin-right: 5px;
-        margin-bottom: 0;
-    }
-
-    .experiencias-img-gd img {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .experiencias-texto-gd {
-        margin: 0 auto 30px;
-    }
-
-    /* Portfolio */
-    .portfolio {
-        padding-top: 20px;
-    }
-
-    #texto-subtitulo {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .lista-portfolio {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    /* Contato */
-    .contato {
-        padding-top: 0;
-    }
-
-    .contato .subtitulo:after {
-        width: 60px;
-    }
-
-    .contato p {
-        width: 100%;
-        line-height: 25px;
-    }
-
-    #whats {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    #linkedin {
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    #email {
-        width: 100%;
-        text-align: center;
-    }
-
-}
+/* Estilo para tablets */@media only screen and (min-width: 788px) and (max-width: 979px) {    /* Header */    .header {        height: 10%;    }    .header .grid-14 {        width: 788px;    }    .header_menu {        text-align: center;    }    .header_redes {        margin-top: 20px;        width: 100%;    }    .header_redes img {        display: inline;        margin-right: 10px;    }    /* Introducao */    .introducao {        text-align: center;        padding-top: 50px;        background-color: #11A7F8;    }    .introducao h1 {        margin: 0 auto;    }    .introducao-lista {        margin: 0 auto;        margin-top: 45%;    }    /* Sobre */    .sobre {        padding-top: 30px;        padding-bottom: 20px;    }    .sobre p {        margin-bottom: 20px;    }    .sobre-texto {        width: 458px;        margin-left: 0;        margin-bottom: 0;    }    .sobre-lateral h4 {        margin-top: 60px;    }    /* Experiencias */    .experiencias {        padding-top: 20px;        padding-bottom: 0;    }    .experiencias-logo {        margin-top: 60px;    }    .experiencias-texto-peq {        margin-top: 40px;    }    .experiencias-texto-gd {        width: 100%;        margin-top: 20px;    }    /* Portfolio */    .portfolio {        padding-top: 20px;    }    .portfolio img {        width: 236px;    }    .portfolio-titulo {        height: 100px;        padding: 10px 0;    }    /* Contato */    .contato {        padding-top: 0;    }    .contato .subtitulo:after {        width: 80px;    }    }/* Estilo para smartphone */@media only screen and (max-width: 787px) {    /* Header */    .header {        position: relative;        padding-top: 20px;    }    .header_menu {        text-align: center;    }    .header_menu ul li a:hover {        border-color: black;    }    .intro {        margin-top: 15%;    }    .intro .cta {        margin: 5% auto;    }    .cta-btn {        padding: 2%;    }    .intro-img-resp {        display: block;    }    .intro-text {        margin: 0 auto;    }    .intro-img {        display: none;    }    .footer {        min-height: 17%;        height: 100%;        max-height: 17%;        padding: 2% 0 0 0;    }    .footer-text h3 {    }    .footer-menu {        width: 100%;    }    .footer-menu li {        margin-right: 1%;    }    .footer-menu li:last-child {        display: none;    }    /* PAGINA SOBRE */    .about img {        width: 100%;    }    .about-right {        margin-bottom: 70%;    }    .about-right p, .about-text p {        margin-bottom: 5%;    }    .about .cta-btn {        padding: 4%;    }    .about .cta-btn:hover {        padding: 5%;    }    /* PAGINA CONTATO */    .contact {        margin-top: 25%;    }    }

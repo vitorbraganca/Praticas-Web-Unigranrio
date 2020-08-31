@@ -21,11 +21,16 @@
     <meta property="og:image" content=""/>
 
 
-    <!-- Stilos -->
+    <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu-mobile.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsivo.css">
+
+
+
 
 
     <!-- Fontes -->
@@ -48,7 +53,8 @@
 <header class="header">
     <div class="container">
         <nav class="header_menu">
-            <ul class="grid-14">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul class="grid-14" data-menu="list" id="menu">
                 <li><a href="#home-section" class="nav-selected">Home</a></li>
 
                 <li><a href="./manutencao.html">Serviços</a></li>
@@ -84,6 +90,10 @@
 
             </div>
             
+            <div class="intro-img-resp">
+                <img src="./img/intro-img-resp.png" alt="">
+            </div>
+            
             <div class="intro-img grid-6">
                 <img src="./img/intro-img.png" alt="">
             </div>
@@ -95,9 +105,11 @@
 
 <footer class="footer">
     <div class="container">
-        <p>Desenvolvido por <strong>Vítor Eduardo Bragança</strong>, como AP1 da disciplina
-            Práticas de Programação Web.</p>
-        <p>Matrícula 5405374</p>
+        <div class="footer-text">
+            <h2>Desenvolvido por <strong>Vítor Eduardo Bragança</strong>, como AP1 da disciplina
+                Práticas de Programação Web.</h2>
+            <h3>Matrícula 5405374</h3>
+        </div>
 
         <nav class="nav-footer">
             <ul class="footer-menu">
@@ -109,5 +121,9 @@
 
     </div>
 </footer>
+
+<!-- JAVASCRIPT -->
+<script type="module" src="./js/script.js"></script>
+
 
 </body>
