@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>AP2 - Praticas de Programacao Web. Contato</title>
+
+    <meta name="description"
+          content="AP2 - Praticas de programação Web">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:title" content="Praticas de Programação Web - UNIGRANRIO"/>
+    <meta property="og:site_name" content="Praticas Web">
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="AP1 - Praticas de programação Web">
+    <meta property="og:url" content="http://praticas.vitorbraganca.com/"/>
+    <meta property="og:image" content=""/>
+
+    <!-- Stilos -->
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+    <!-- Fontes -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.svg">
+
+    <!-- Script -->
+    <script>document.documentElement.classList.add("js");</script>
+
+</head>
+
+<body class="ap2">
+<header class="header">
+    <div class="container">
+        <nav class="header_menu">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul class="grid-14" data-menu="list" id="menu">
+                <li><a href="./index.html">Home</a></li>
+
+                <li><a href="./manutencao.html">Serviços</a></li>
+
+                <li><a href="./sobre.html"  class="nav-selected">Sobre</a></li>
+
+                <li><a href="./index.html" class="nav-selected nav-main">Eu.</a></li>
+
+                <li><a href="./manutencao.html">Portfolio</a></li>
+
+                <li><a href="./manutencao.html">Cliente</a></li>
+
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+<!--    ABOUT SECTION -->
+    <section class="container about">
+        <h1 class="subtitle">Exercícios AP2</h1>
+
+        <div class="about-text grid-3">
+
+            <ul class="exercise-list">
+                <li><a href="#" onclick="call_exercise1()">Número 1</a></li>
+                <li><a href="#" onclick="call_exercise2()">Número 2</a></li>
+                <li><a href="#" onclick="call_exercise3()">Número 3</a></li>
+                <li><a href="#" onclick="call_exercise4()">Número 4</a></li>
+                <li><a href="#" onclick="call_exercise5()">Número 5</a></li>
+                <li><a href="#" onclick="call_exercise6()">Número 6</a></li>
+                <li><a href="#" onclick="call_exercise7()">Número 7</a></li>
+                <li><a href="#" onclick="call_exercise8()">Número 8</a></li>
+                <li><a href="#" onclick="call_exercise9()">Número 9</a></li>
+                <li><a href="#" onclick="call_exercise10()">Número 10</a></li>
+                <li><a href="#" onclick="call_exercise11()">Número 11</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- TRECHOS DE EXERCÍCIOS -->
+
+        <div class="exercise exercise1 about-center grid-13" id="exercise1">
+            <h2>Exercício 1</h2>
+
+            <span>Programa que entre com três números, faz a média aritmética e mostra o
+                resultado.</span>
+
+            <div class="contact-form">
+                <label for="number1">Número 1:</label>
+                <input type="number" id="number1" name="number1" min="1">
+
+                <label for="number2">Número 2:</label>
+                <input type="number" id="number2" name="number2" min="1">
+
+                <label for="number3">Número 3:</label>
+                <input type="number" id="number3" name="number3" min="1">
+
+                <label for="result">Resultado: </label>
+                <p id="result">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_1()">Calcular agora</button>
+
+            </div>
+        </div>
+
+        <div class="exercise exercise2 about-center grid-13" id="exercise2">
+            <h2>Exercício 2</h2>
+
+            <span>Programa que le o salario e retorna o salário com um aumento de 10%.</span>
+
+            <div class="contact-form">
+
+                <label for="employeeName">Nome:</label>
+                <input type="text" id="employeeName" name="employeeName">
+
+                <label for="salary">Salario:</label>
+                <input type="number" id="salary" name="salary" min="1">
+
+                <label for="result">Novo salário: </label>
+                <p id="result2">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_2()">Calcular agora</button>
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise3 about-center grid-13" id="exercise3">
+            <h2>Exercício 3</h2>
+
+            <span>Programa que le dois valores inteiros, caso sejam iguais, são somados, caso
+            contrário, são multiplicados.</span>
+
+            <div class="contact-form">
+
+                <label for="valueA">Valor A:</label>
+                <input type="number" id="valueA" name="valueA">
+
+                <label for="valueB">Valor B:</label>
+                <input type="number" id="valueB" name="valueB">
+
+                <label for="result">Resultado: </label>
+                <p id="result3">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_3()">Calcular agora</button>
+
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise4 about-center grid-13" id="exercise4">
+            <h2>Exercício 4</h2>
+
+            <span>Programa que calcula valor referente a pagamento parcelado.</span>
+
+            <div class="contact-form">
+
+                <label for="fullPrice">Preço a vista:</label>
+                <input type="number" id="fullPrice" name="fullPrice" min="1">
+
+                <label for="installment">Quantidade de vezes: </label>
+
+                <select class="grid-13" name="installment" id="installment">
+                    <option value="3">3 vezes</option>
+                    <option value="5">5 vezes</option>
+                </select>
+
+                <label class="grid-13" for="result">Novo valor: </label>
+                <p id="result4">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_4()">Calcular agora</button>
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise5 about-center grid-13" id="exercise5">
+            <h2>Exercício 5</h2>
+
+            <span>Programa que recebe 3 notas, faz a média e mostra o resultado!</span>
+
+            <div class="contact-form">
+                <label for="studentName">Nome:</label>
+                <input type="text" id="studentName" name="studentName">
+
+                <label for="grade1">Nota 1:</label>
+                <input type="number" id="grade1" name="grade1" min="1">
+
+                <label for="grade2">Nota 2:</label>
+                <input type="number" id="grade2" name="grade2" min="1">
+
+                <label for="grade3">Nota 3:</label>
+                <input type="number" id="grade3" name="grade3" min="1">
+
+                <label for="result">Resultado: </label>
+                <p id="result5">--</p>
+
+                <label for="result">Média: </label>
+                <p id="result_average">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_5()">Calcular agora</button>
+
+            </div>
+        </div>
+
+        <div class="exercise exercise6 about-center grid-13" id="exercise6">
+            <h2>Exercício 6</h2>
+
+            <span>Programa que calcula valor dependendo do código escolhido.</span>
+
+            <div class="contact-form">
+
+                <label for="firstNumber">Primeiro número:</label>
+                <input type="number" id="firstNumber" name="firstNumber" min="1">
+
+                <label for="secondNumber">Segundo número:</label>
+                <input type="number" id="secondNumber" name="secondNumber" min="1">
+
+                <label for="installment">Código de identificação: </label>
+
+                <select class="grid-13" name="identifier" id="identifier">
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                </select>
+
+                <label class="grid-13" for="result">Novo valor: </label>
+                <p id="result6">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_6()">Calcular agora</button>
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise7 about-center grid-13" id="exercise7">
+            <h2>NÃO TINHA ENUNCIADO.</h2>
+        </div>
+
+        <div class="exercise exercise8 about-center grid-13" id="exercise8">
+            <h2 id="result8">O RESULTADO APARECERÁ AQUI</h2>
+
+            <div class="exercise contact-form" id="inputNumberButton8">
+                <button type="submit" class="btn" onclick="exercise_8()">Começar</button>
+            </div>
+
+            <div class="exercise about-center grid-12 input-numbers" id="inputNumbers8">
+
+            </div>
+        </div>
+
+        <div class="exercise exercise9 about-center grid-13" id="exercise9">
+            <h2 id="result9">O RESULTADO APARECERÁ AQUI</h2>
+
+            <div class="exercise contact-form" id="inputNumberButton">
+                <button type="submit" class="btn" onclick="exercise_9()">Começar</button>
+            </div>
+
+            <div class="exercise about-center grid-12 input-numbers" id="inputNumbers">
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise10 about-center grid-13" id="exercise10">
+            <h2>EXERCICIO 10</h2>
+
+            <div class="contact-form">
+
+                <label for="productCode">Código de produto:</label>
+                <input type="number" id="productCode" name="productCode" min="1">
+
+                <label class="grid-13" for="result">Valor final: </label>
+                <p id="result10">R$ </p>
+
+                <button type="submit" class="btn" onclick="exercise_10()">Calcular agora</button>
+
+            </div>
+
+        </div>
+
+        <div class="exercise exercise11 about-center grid-13" id="exercise11">
+            <h2>Exercício 11</h2>
+
+            <span>Programa que exibe o quadrado de cada um dos números pares entre 1 e 100.</span>
+
+            <div class="contact-form">
+
+                <label class="grid-13" for="result">Valores: </label>
+                <p id="result11">--</p>
+
+                <button type="submit" class="btn" onclick="exercise_11()">Começar agora</button>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="links">
+        <div class="container">
+
+            <div class="links-center">
+
+                <p>Todos os códigos deste exercício podem ser encontrados no meu GitHub!</p>
+
+                <a class="cta-btn grid-4" href="./manutencao.html">Acessar GitHub</a>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>Desenvolvido por <strong>Vítor Eduardo Bragança</strong>, como AP1 da disciplina
+            Práticas de Programação Web.</p>
+        <p>Matrícula 5405374</p>
+
+        <nav class="nav-footer">
+            <ul class="footer-menu">
+                <li><a href="https://github.com/vitorbraganca/" target="_blank">GitHub</a></li>
+                <li><a href="https://vitorbraganca.com/" target="_blank">Website pessoal</a></li>
+                <li><a href="https://t.me/vitorbraganca" target="_blank">Telegram</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script type="module" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/ap2.js"></script>
+
+
+</body>

@@ -282,14 +282,14 @@ img {
 /*    margin-top: 5%;*/
 /*}*/
 
-.contact-form label, .contact-form input, .contact-form textarea {
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form select, .contact-form option {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
     min-height: 13%;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input, .contact-form textarea, .contact-form select {
     padding: 1%;
     margin: 2% 0;
     border: none;
@@ -397,4 +397,69 @@ img {
 
 .active {
     display: block;
+}
+
+/* AP2 */
+
+.exercise-list {
+}
+
+.exercise-list li {
+    margin: 10% auto;
+    padding: 1%;
+}
+
+.exercise-list li a {
+    padding: 1%;
+}
+
+.ap2 .about-center {
+    font-weight: bold;
+    min-height: 50vh;
+    height: 100%;
+    padding: 2%;
+}
+
+.ap2 .about-center p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.links-center {
+    text-align: center;
+    margin: 5% auto;
+}
+
+.links-center .cta-btn {
+    margin: 2% 35%;
+    width: 25%;
+}
+
+/* EXERCICIOS */
+
+.exercise {
+    display: none;
+}
+
+.about-center h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.exercise span {
+    font-weight: normal;
+}
+
+
+.about-center .contact-form .btn {
+    padding: 1%;
+    color: white;
+    font-weight: 700;
+    margin: 2% auto;
+}
+
+.input-numbers {
+    background-color: #FFFFFF;
 }
